@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bibliotheque.xsl"?>
+<!DOCTYPE biblio SYSTEM "bibliotheque.dtd">
+
+<biblio>
+    <etudiant id="E01" nom="Ali" prenom="Ahmed" age="22">
+        <livre id="L01" titre="XML" dateEmprunt="03/11/2026" rendu="non"/>
+        <livre id="L02" titre="HTML" dateEmprunt="01/11/2026" rendu="oui"/>
+    </etudiant>
+</biblio>
