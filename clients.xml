@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clients SYSTEM "clients.dtd">
+<?xml-stylesheet type="text/xsl" href="clients.xsl"?>
+<clients>
+    <client id="C1" nom="Youssef Amrani">
+        <adresse>12, Avenue Hassan II, Safi</adresse>
+        <abonnements>
+            <abonnement reference="AB11">
+                <type>FIBRE</type>
+                <dateSouscription>2026-01-15</dateSouscription>
+                <totalFactures>1200</totalFactures>
+                <facturesImpayees>200</facturesImpayees>
+            </abonnement>
+            <abonnement reference="AB12">
+                <type>ADSL</type>
+                <dateSouscription>2026-02-10</dateSouscription>
+                <totalFactures>600</totalFactures>
+                <facturesImpayees>0</facturesImpayees>
+            </abonnement>
+            <abonnement reference="AB13">
+                <type>MOBILE</type>
+                <dateSouscription>2026-03-05</dateSouscription>
+                <totalFactures>360</totalFactures>
+                <facturesImpayees>120</facturesImpayees>
+            </abonnement>
+        </abonnements>
+        <nombreAbonnements>3</nombreAbonnements>
+    </client>
+    <client id="C2" nom="Salma Bennani">
+        <adresse>8, Rue Ibn Sina, Marrakech</adresse>
+        <abonnements>
+            <abonnement reference="AB21">
+                <type>FIBRE</type>
+                <dateSouscription>2026-01-20</dateSouscription>
+                <totalFactures>1500</totalFactures>
+                <facturesImpayees>500</facturesImpayees>
+            </abonnement>
+            <abonnement reference="AB22">
+                <type>ADSL</type>
+                <dateSouscription>2026-02-14</dateSouscription>
+                <totalFactures>720</totalFactures>
+                <facturesImpayees>120</facturesImpayees>
+            </abonnement>
+            <abonnement reference="AB23">
+                <type>MOBILE</type>
+                <dateSouscription>2026-03-08</dateSouscription>
+                <totalFactures>480</totalFactures>
+                <facturesImpayees>0</facturesImpayees>
+            </abonnement>
+        </abonnements>
+        <nombreAbonnements>3</nombreAbonnements>
+    </client>
+    <client id="C3" nom="Omar El Fassi">
+        <adresse>25, Quartier Al Massira, Essaouira</adresse>
+        <abonnements>
+            <abonnement reference="AB31">
+                <type>FIBRE</type>
+                <dateSouscription>2026-01-12</dateSouscription>
+                <totalFactures>1800</totalFactures>
+                <facturesImpayees>0</facturesImpayees>
+            </abonnement>
+            <abonnement reference="AB32">
+                <type>ADSL</type>
+                <dateSouscription>2026-02-18</dateSouscription>
+                <totalFactures>540</totalFactures>
+                <facturesImpayees>180</facturesImpayees>
+            </abonnement>
+            <abonnement reference="AB33">
+                <type>MOBILE</type>
+                <dateSouscription>2026-03-11</dateSouscription>
+                <totalFactures>600</totalFactures>
+                <facturesImpayees>200</facturesImpayees>
+            </abonnement>
+        </abonnements>
+        <nombreAbonnements>3</nombreAbonnements>
+    </client>
+    <client id="C4" nom="Nadia Tazi">
+        <adresse>4, Lotissement Al Wifaq, Youssoufia</adresse>
+        <abonnements>
+            <abonnement reference="AB41">
+                <type>FIBRE</type>
+                <dateSouscription>2026-01-25</dateSouscription>
+                <totalFactures>1350</totalFactures>
+                <facturesImpayees>450</facturesImpayees>
+            </abonnement>
+            <abonnement reference="AB42">
+                <type>ADSL</type>
+                <dateSouscription>2026-02-21</dateSouscription>
+                <totalFactures>660</totalFactures>
+                <facturesImpayees>0</facturesImpayees>
+            </abonnement>
+            <abonnement reference="AB43">
+                <type>MOBILE</type>
+                <dateSouscription>2026-03-15</dateSouscription>
+                <totalFactures>420</totalFactures>
+                <facturesImpayees>140</facturesImpayees>
+            </abonnement>
+        </abonnements>
+        <nombreAbonnements>3</nombreAbonnements>
+    </client>
+    <client id="C5" nom="Hamza Alaoui">
+        <adresse>17, Avenue Mohammed V, Agadir</adresse>
+        <abonnements>
+            <abonnement reference="AB51">
+                <type>FIBRE</type>
+                <dateSouscription>2026-01-30</dateSouscription>
+                <totalFactures>1650</totalFactures>
+                <facturesImpayees>550</facturesImpayees>
+            </abonnement>
+            <abonnement reference="AB52">
+                <type>ADSL</type>
+                <dateSouscription>2026-02-25</dateSouscription>
+                <totalFactures>780</totalFactures>
+                <facturesImpayees>260</facturesImpayees>
+            </abonnement>
+            <abonnement reference="AB53">
+                <type>MOBILE</type>
+                <dateSouscription>2026-03-19</dateSouscription>
+                <totalFactures>540</totalFactures>
+                <facturesImpayees>0</facturesImpayees>
+            </abonnement>
+        </abonnements>
+        <nombreAbonnements>3</nombreAbonnements>
+    </client>
+    <statistiques>
+        <nombreClients>5</nombreClients>
+        <nombreAbonnements>15</nombreAbonnements>
+        <nombreFacturesImpayees>10</nombreFacturesImpayees>
+        <totalFactures>13200</totalFactures>
+        <totalFacturesImpayees>2720</totalFacturesImpayees>
+        <moyenneMontantsAbonnements>880</moyenneMontantsAbonnements>
+    </statistiques>
+</clients>

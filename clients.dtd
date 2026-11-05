@@ -1,0 +1,18 @@
+<!ELEMENT clients (client+, statistiques)>
+<!ELEMENT client (adresse, abonnements, nombreAbonnements)>
+<!ATTLIST client id ID #REQUIRED nom CDATA #REQUIRED>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT abonnements (abonnement+)>
+<!ELEMENT abonnement (type, dateSouscription, totalFactures, facturesImpayees)>
+<!ATTLIST abonnement reference ID #REQUIRED>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT dateSouscription (#PCDATA)>
+<!ELEMENT totalFactures (#PCDATA)>
+<!ELEMENT facturesImpayees (#PCDATA)>
+<!ELEMENT nombreAbonnements (#PCDATA)>
+<!ELEMENT statistiques (nombreClients, nombreAbonnements, nombreFacturesImpayees, totalFactures, totalFacturesImpayees, moyenneMontantsAbonnements)>
+<!ELEMENT nombreClients (#PCDATA)>
+<!ELEMENT nombreFacturesImpayees (#PCDATA)>
+<!ELEMENT totalFactures (#PCDATA)>
+<!ELEMENT totalFacturesImpayees (#PCDATA)>
+<!ELEMENT moyenneMontantsAbonnements (#PCDATA)>

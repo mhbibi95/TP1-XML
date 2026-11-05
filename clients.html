@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liste des clients</title>
+<style>
+:root { color-scheme: light; }
+body { font-family: Arial, sans-serif; margin: 32px auto; padding: 0 18px; max-width: 1100px; color: #202b38; background: #f5f7fa; }
+h1 { color: #173b63; border-bottom: 3px solid #2f6f9f; padding-bottom: 12px; }
+.client { background: white; border: 1px solid #d7dee8; border-radius: 9px; padding: 18px; margin: 20px 0; box-shadow: 0 2px 6px #0000000b; }
+h2 { color: #24527a; margin: 0 0 8px; }
+.address { color: #566273; margin: 0 0 14px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #cbd3dd; padding: 10px; text-align: left; }
+th { background: #e8eff7; }
+td.money { text-align: right; white-space: nowrap; }
+td.unpaid { color: #b42318; font-weight: bold; }
+.summary { background: white; border: 1px solid #d7dee8; border-radius: 9px; padding: 18px; margin-top: 24px; }
+.summary ul { line-height: 1.9; }
+@media(max-width:650px) { body { margin: 14px auto; } .client { overflow-x: auto; } table { min-width: 680px; } }
+</style>
+</head>
+<body>
+<h1>Liste des clients</h1>
+
+<section class="client"><h2>Client : Youssef Amrani</h2><p class="address"><strong>Adresse :</strong> 12, Avenue Hassan II, Safi</p>
+<table><thead><tr><th>Référence</th><th>Type d'abonnement</th><th>Date de souscription</th><th>Total factures (DH)</th><th>Factures impayées (DH)</th></tr></thead><tbody>
+<tr><td>AB11</td><td>FIBRE</td><td>2026-01-15</td><td class="money">1 200</td><td class="money unpaid">200</td></tr>
+<tr><td>AB12</td><td>ADSL</td><td>2026-02-10</td><td class="money">600</td><td class="money unpaid">0</td></tr>
+<tr><td>AB13</td><td>MOBILE</td><td>2026-03-05</td><td class="money">360</td><td class="money unpaid">120</td></tr>
+<tr><td colspan="4"><strong>Nombre d’abonnements</strong></td><td class="money"><strong>3</strong></td></tr></tbody></table></section>
+<section class="client"><h2>Client : Salma Bennani</h2><p class="address"><strong>Adresse :</strong> 8, Rue Ibn Sina, Marrakech</p>
+<table><thead><tr><th>Référence</th><th>Type d'abonnement</th><th>Date de souscription</th><th>Total factures (DH)</th><th>Factures impayées (DH)</th></tr></thead><tbody>
+<tr><td>AB21</td><td>FIBRE</td><td>2026-01-20</td><td class="money">1 500</td><td class="money unpaid">500</td></tr>
+<tr><td>AB22</td><td>ADSL</td><td>2026-02-14</td><td class="money">720</td><td class="money unpaid">120</td></tr>
+<tr><td>AB23</td><td>MOBILE</td><td>2026-03-08</td><td class="money">480</td><td class="money unpaid">0</td></tr>
+<tr><td colspan="4"><strong>Nombre d’abonnements</strong></td><td class="money"><strong>3</strong></td></tr></tbody></table></section>
+<section class="client"><h2>Client : Omar El Fassi</h2><p class="address"><strong>Adresse :</strong> 25, Quartier Al Massira, Essaouira</p>
+<table><thead><tr><th>Référence</th><th>Type d'abonnement</th><th>Date de souscription</th><th>Total factures (DH)</th><th>Factures impayées (DH)</th></tr></thead><tbody>
+<tr><td>AB31</td><td>FIBRE</td><td>2026-01-12</td><td class="money">1 800</td><td class="money unpaid">0</td></tr>
+<tr><td>AB32</td><td>ADSL</td><td>2026-02-18</td><td class="money">540</td><td class="money unpaid">180</td></tr>
+<tr><td>AB33</td><td>MOBILE</td><td>2026-03-11</td><td class="money">600</td><td class="money unpaid">200</td></tr>
+<tr><td colspan="4"><strong>Nombre d’abonnements</strong></td><td class="money"><strong>3</strong></td></tr></tbody></table></section>
+<section class="client"><h2>Client : Nadia Tazi</h2><p class="address"><strong>Adresse :</strong> 4, Lotissement Al Wifaq, Youssoufia</p>
+<table><thead><tr><th>Référence</th><th>Type d'abonnement</th><th>Date de souscription</th><th>Total factures (DH)</th><th>Factures impayées (DH)</th></tr></thead><tbody>
+<tr><td>AB41</td><td>FIBRE</td><td>2026-01-25</td><td class="money">1 350</td><td class="money unpaid">450</td></tr>
+<tr><td>AB42</td><td>ADSL</td><td>2026-02-21</td><td class="money">660</td><td class="money unpaid">0</td></tr>
+<tr><td>AB43</td><td>MOBILE</td><td>2026-03-15</td><td class="money">420</td><td class="money unpaid">140</td></tr>
+<tr><td colspan="4"><strong>Nombre d’abonnements</strong></td><td class="money"><strong>3</strong></td></tr></tbody></table></section>
+<section class="client"><h2>Client : Hamza Alaoui</h2><p class="address"><strong>Adresse :</strong> 17, Avenue Mohammed V, Agadir</p>
+<table><thead><tr><th>Référence</th><th>Type d'abonnement</th><th>Date de souscription</th><th>Total factures (DH)</th><th>Factures impayées (DH)</th></tr></thead><tbody>
+<tr><td>AB51</td><td>FIBRE</td><td>2026-01-30</td><td class="money">1 650</td><td class="money unpaid">550</td></tr>
+<tr><td>AB52</td><td>ADSL</td><td>2026-02-25</td><td class="money">780</td><td class="money unpaid">260</td></tr>
+<tr><td>AB53</td><td>MOBILE</td><td>2026-03-19</td><td class="money">540</td><td class="money unpaid">0</td></tr>
+<tr><td colspan="4"><strong>Nombre d’abonnements</strong></td><td class="money"><strong>3</strong></td></tr></tbody></table></section>
+<section class="summary">
+<h2>Statistiques générales</h2>
+<ul>
+<li>Nombre de clients : <strong>5</strong></li>
+<li>Nombre total d'abonnements : <strong>15</strong></li>
+<li>Nombre d'abonnements avec impayés : <strong>10</strong></li>
+<li>Total des factures : <strong>13 200 DH</strong></li>
+<li>Total des factures impayées : <strong>2 720 DH</strong></li>
+<li>Moyenne des montants par abonnement : <strong>880 DH</strong></li>
+</ul></section>
+</body></html>
